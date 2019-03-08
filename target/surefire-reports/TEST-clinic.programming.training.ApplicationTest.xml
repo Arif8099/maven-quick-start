@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="clinic.programming.training.ApplicationTest" time="0.036" errors="0" skipped="1">
+<testsuite tests="5" failures="0" name="clinic.programming.training.ApplicationTest" time="0.028" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.1+13-LTS"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Arif Files\Maven\projects2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17677967506401026838.tmp"/>
+    <property name="classworlds.conf" value="C:\Arif Files\Maven\projects2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7305965092688924287.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\app\OracleIO\product\11.2.0\dbhome_1\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-10.0.1\bin;C:\Program Files\Java\jre-10.0.1\bin;C:\Program Files\R\R-3.5.1\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\scala-2.12.6\bin;C:\Arif Files\python practise;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.1\bin;C:\Arif Files\Python;C:\Arif Files\Selenium\chromedriver\chromedriver.exe;C:\DevTools\apache-maven-3.6.0\bin;C:\Users\IO Inc\AppData\Local\Microsoft\WindowsApps;C:\Users\IO Inc\AppData\Local\JetBrains\PyCharm Community Edition 2018.3.3\bin;;c:\users\io inc\appdata\local\programs\python\python37\lib\site-packages\pip\__init__.py;C:\Program Files\Notepad++;;C:\Program Files\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\DevTools\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountSingle" time="0.017"/>
+  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountSingle" time="0.015"/>
   <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountString" time="0.001"/>
-  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountEmpty" time="0.007"/>
-  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountMore" time="0.01">
+  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountEmpty" time="0.004"/>
+  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountMore" time="0.006">
     <skipped/>
   </testcase>
-  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountNull" time="0.001"/>
+  <testcase classname="clinic.programming.training.ApplicationTest" name="testWordCountNull" time="0.002"/>
 </testsuite>
